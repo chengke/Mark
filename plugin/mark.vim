@@ -117,6 +117,10 @@ vnoremap <silent> <Plug>MarkRegex <c-\><c-n>:call
 nnoremap <silent> <Plug>MarkClear :call
 	\ <sid>DoMark(<sid>CurrentMark())<cr>
 
+" DenMark bindings
+nmap <silent> <C-m> <Plug>MarkSet
+vmap <silent> <C-m> <Plug>MarkSet
+
 " Here is a sumerization of the following keys' behaviors:
 " 
 " First of all, \#, \? and # behave just like \*, \/ and *, respectively,
